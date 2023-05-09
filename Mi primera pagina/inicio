@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Coldplay</title>
+</head>
+<body>
+	<header>
+		<h1>Coldplay</h1>
+	</header>
+	<nav>
+		<ul>
+			<li><a href="#biografia">Biografía</a></li>
+			<li><a href="#discografia">Discografía</a></li>
+			<li><a href="#videos">Videos</a></li>
+      <li><a href="#suscripcion">Suscribete</a></li>
+		</ul>
+	</nav>
+	<main>
+		<section id="biografia">
+			<h2>Biografía</h2>
+      <img src="https://planetariodebogota.gov.co/sites/default/files/coldplay_0_0.jpeg" alt="Coldplay 2022" /> 
+			<p>Coldplay es una banda británica formada en Londres en 1996. Sus integrantes son Chris Martin (vocalista y pianista), Jon Buckland (guitarrista), Guy Berryman (bajista) y Will Champion (baterista). Han lanzado varios álbumes de estudio, incluyendo Parachutes, A Rush of Blood to the Head, X&Y, Viva la Vida or Death and All His Friends, Mylo Xyloto, Ghost Stories, A Head Full of Dreams y Everyday Life.</p>
+		</section>
+		<section id="discografia">
+			<h2>Discografía</h2>
+			<ul>
+				<li>Parachutes (2000)</li>
+				<li>A Rush of Blood to the Head (2002)</li>
+				<li>X&Y (2005)</li>
+				<li>Viva la Vida or Death and All His Friends (2008)</li>
+				<li>Mylo Xyloto (2011)</li>
+				<li>Ghost Stories (2014)</li>
+				<li>A Head Full of Dreams (2015)</li>
+				<li>Everyday Life (2019)</li>
+			</ul>
+		</section>
+    <section id="videos">
+			<h2>Videos</h2>
+			<ul>
+				<li>Yellow</li>
+				<li>The Scientist</li>
+				<li>Clocks</li>
+				<li>Viva la Vida</li>
+				<li>Paradise</li>
+				<li>A Sky Full of Stars</li>
+				<li>Adventure of a Lifetime</li>
+				<li>Orphans</li>
+				<li>Everyday Life</li>
+			</ul>
+		</section>
+    <section id="suscripcion">
+      <h2>Suscríbete para mas información sobre Coldplay</h2>
+      <p>No te pierdas ninguna noticia o novedad sobre la banda, suscríbete a nuestro boletín y mantente informado.</p>
+      <form action="#">
+        <label for="email">
+    </section>
+	</main>
+	<footer>
+		<p>© 2023 Coldplay</p>
+	</footer>
+</body>
+</html>
