@@ -1,0 +1,145 @@
+h1{
+  font-family: Poppins;
+  font-size: 40px;
+  letter-spacing: 0.4em;
+  font-weight: 600;
+  text-transform: uppercase;
+  color:rgb(255, 255, 255)
+}
+h2{
+  font-family: Poppins;
+  font-size: 18px;
+  font-weight: 300;
+  letter-spacing: 0.2em;
+  text-transform: uppercase;
+  color:rgb(255, 255, 255)
+}
+h3{
+  font-family: Poppins;
+  font-weight: 300;
+  color:rgb(255, 255, 255)
+}
+h4{
+  font-family: Poppins;
+  font-weight: 300;
+  color:rgb(255, 255, 255)
+}
+p{
+  font-family: Poppins;
+  font-weight: 300;
+  font-size: 12px;
+  color:rgb(255, 255, 255)
+}
+h6{
+  font-family: Poppins;
+  font-weight: 300;
+  color:rgb(255, 255, 255);
+  font-family: Poppins;
+  font-size: 10px;
+  letter-spacing: 0.5em;
+}
+body {
+  background-color: #0a0a42;
+  text-align: center;
+}
+
+nav {
+  background color:rgb(255, 255, 0)
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 60px;
+  position: absolute;
+  flex-direction: row;
+  top: 0;
+  left: 0;
+  width: 100%;
+  padding: 10px;
+  box-sizing: border-box; 
+  z-index: 1;
+}
+
+
+ul {
+  list-style-type: none;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 100%;
+  max-width: 1350px;
+}
+
+li {
+  display: inline-block;
+  margin: 0 10px;
+  padding: 0 50px;
+}
+
+a {
+  text-decoration: none;
+  color: #fff;
+  font-size: 18px;
+  font-weight: bold;
+  text-transform: uppercase;
+  padding: 60px;
+}
+
+a:hover {
+  background-color: #fff;
+  color: #333;
+}
+
+
+.container {
+  width: 80%;
+  margin: 0 auto;
+  text-align: center;
+}
+
+header {
+  position: relative;
+  width: 100%;
+  height: 350px;
+  background-image: url("https://planetariodebogota.gov.co/sites/default/files/coldplay_0_0.jpeg");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+header::before {
+  content: "";
+  display: block;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(36, 4, 44, 0.5);
+}
+
+header h1 {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: #fff;
+  font-size: 36px;
+  text-align: center;
+  z-index: 1;
+}
+
+a {
+  color: #fffefe;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #ffffff;
+  text-decoration: underline;
+}
+
+img {
+  box-shadow: 5px 5px 30px 5px #07021f;
+  border: 1px solid #260b49;
+}
+
+/* Fin del bloque de estilos */
