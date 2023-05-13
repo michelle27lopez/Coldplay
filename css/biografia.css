@@ -1,0 +1,30 @@
+main #contenedor-biografia{
+  padding: 30px 0 60px 0;
+}
+
+.contenedor-debiografia{
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.imagen-biografia{
+  width: 48%;
+  border-radius: 20px;
+}
+
+.contenedor-biografia .contenido-textos{
+  width: 48%;
+}
+
+#contenido-textos h3{
+ font-weight: lighter;
+  margin-bottom: 20px;
+}
+
+.contenido-textos p{
+  padding: 30px 0px 10px 15px;
+  font-size: 12px;
+  color: #ffffff;
+  font-weight: 300;
+  text-align: justify;
+}

@@ -1,0 +1,55 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body{
+  background-color: #150224;
+  font-family: Poppins;
+}
+
+p{
+  line-height: 25px
+}
+
+h3{
+  font-size: 20px;
+  color: #ffffff;
+}
+
+h5{
+  font-size: 12px;
+  color: #ffffff;
+  letter-spacing: 0.2em;
+}
+
+.leer-mas{
+  color: rgb(207, 114, 244);
+  text-decoration: none;
+  cursor: pointer;
+}
+
+a:hover,
+a:active {
+  color: rgb(210, 53, 231);
+  text-decoration: underline;
+}
+
+
+.contenedor {
+  padding: 60px 0;
+  width: 90%;
+  max-width: 1000px;
+  margin: auto;
+  overflow: hidden;
+}
+
+.titulo {
+  color: #df33dc;
+  font-size: 30px;
+  font-weight: 100;
+  text-transform: uppercase;
+  text-align: center;
+  letter-spacing: 0.4em;
+  margin-bottom: 60px;
+}

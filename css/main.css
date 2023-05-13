@@ -1,1 +1,5 @@
-@
+@import url('./base.css');
+@import url('./header.css');
+@import url('./biografia.css');
+@import url('./discografia.css');
+@import url('./conciertos.css');
